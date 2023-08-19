@@ -1,0 +1,400 @@
+.upload {
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Dataset {
+  display: flex;
+  width: 26%;
+  height: 48px;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #3495b3;
+  text-align: center;
+  font-family: Arial;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.92px;
+  text-decoration: none;
+}
+
+.DatasetNum {
+  display: flex;
+  width: 200px;
+  height: 48px;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 0;
+  color: black;
+  text-align: center;
+  font-family: Arial;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.92px;
+  text-decoration: none;
+}
+
+.topLevel-Heading {
+  display: flex;
+  width: 876px;
+  height: 48px;
+  flex-direction: row;
+  justify-content: start;
+  flex-shrink: 0;
+  color: #3495b3;
+  text-align: center;
+  font-family: Arial;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.92px;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.botSection {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
+
+.botSection-Top {
+  height: 60%;
+  border-bottom: 1.5px solid #386978;
+}
+
+.botSection-Bottom {
+  height: 40%;
+  border-top: 1.5px solid #386978;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bstTop {
+  border-radius: 15px;
+  height: 95%;
+  width: 84vw;
+  margin: 0 2% 0 2%;
+  background: #ebeaea;
+}
+
+.bstTop-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 98%;
+  padding-left: 3%;
+}
+
+.TopDiv {
+  border-radius: 10px;
+  background: #3495b3;
+  width: 12%;
+  margin-top: 1%;
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.AllElements {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 1%;
+  height: 330px;
+  /* background-color: orange; */
+  overflow-y: scroll;
+}
+
+.bsb-Left {
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  border-top: 1.5px solid #386978;
+  /* border-right: 2px solid #386978; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+  /* background: #ebeaea; */
+  /* padding-top: 10px; */
+}
+
+
+.star1 {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  margin-top: 31.85%;
+  margin-left: 16.31%;
+}
+
+.addData {
+  border-radius: 10px 10px 0 0;
+  background: #ebeaea;
+  width: 96%;
+  height: 70px;
+}
+
+.AddHeading {
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  padding-top: 2%;
+}
+
+.addDataBottom {
+  width: 100%;
+  margin: 0px;
+  height: 250px;
+  padding: 0px;
+}
+
+.BadaButton {
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: #3495b3;
+  font-size: 4rem;
+  width: 60%;
+  height: 90%;
+}
+
+.addDataRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebeaea;
+  border-radius: 0 0 10px 0;
+}
+
+.DataLabelText {
+  color: #000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.DataInput {
+  color: #747474;
+  text-align: center;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  width: 70%;
+  border: none;
+}
+
+.addDataLeft {
+  height: 100%;
+  width: 60%;
+  background-color: #ebeaea;
+  border-radius: 0 0 0 10px;
+}
+
+.AllDataForm {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.FormParts {
+  width: 800px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.bsb-Right {
+  width: 40%;
+  height: 100%;
+  border-top: 1.5px solid #386978;
+  border-left: 2px solid #386978;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: orange; */
+}
+
+.bsbRightAll {
+  width: 400px;
+  height: 110px;
+  margin-left: 100px;
+  border-radius: 10px;
+  /* border: 2px solid green; */
+  background: #ebeaea;
+  margin-top: 5px;
+}
+
+.Statistics {
+  color: #3495b3;
+  margin-left: 110px;
+  text-align: left;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  padding-top: 4%;
+}
+
+.TotalEntries {
+  color: #000;
+  margin: 20px;
+  text-align: left;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  width: 300px;
+  height: 24px;
+  /* border: 2px solid red; */
+}
+
+.statCard{
+  background-color: #ebeaea;
+  border: 1px solid red;
+  width: 100px;
+}
+
+.statText{
+  font-size: 1rem;
+  width: 50px;
+}
+
+.dabbe{
+  display: flex;
+  flex-direction: column;
+}
+
+.dabba{
+  border: 1px solid black;
+  height: 20px;
+}
+
+.DownloadBtn{
+  border-radius: 10px;
+background: #3495B3;
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.38px;
+padding: 5%;
+padding-left: 10%;
+padding-right: 10%;
+border: none;
+}
+
+.UploadInput {
+  /* Add your desired styles here */
+  padding: 10px;
+  margin-left: 1%;
+  color: #333;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  /* display: none; */
+  /* width: 200px; */
+  /* ... */
+}
+
+.UploadInput[type="file"] {
+  /* Modify the appearance of the file input button */
+  cursor: pointer;
+  /* background-color: #eee; */
+  border: none;
+  /* color: #555; */
+  font-weight: bold;
+  width: 300px;
+  /* ... */
+}
+
+.UploadInput[type="file"]::-webkit-file-upload-button {
+  /* Modify the appearance of the button */
+width: 0px;
+visibility: hidden;
+  /* ... */
+}
+
+.btnDiv{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 150px;
+
+}
+
+.uploadInputLabel{
+  border-radius: 10px;
+background: #3495B3;
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.38px;
+padding: 5%;
+padding-left: 10%;
+padding-right: 10%;
+}

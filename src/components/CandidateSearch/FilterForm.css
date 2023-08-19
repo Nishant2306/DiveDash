@@ -1,0 +1,49 @@
+.filter-dropdown {
+    width: 177.493px;
+    height: 29.999px;
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.38px;
+border-radius: 3px;
+background: #EBEAEA;
+  }
+  
+  .filter-form {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .filter-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+  }
+
+  .searchBtn{
+    width: 35px;
+    height: 35px;
+  }
+
+  .cancelBtn{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10%;
+  }
+  

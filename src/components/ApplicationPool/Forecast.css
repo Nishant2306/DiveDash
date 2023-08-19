@@ -1,0 +1,227 @@
+.BSLeft{
+    width: 70%;
+    border-right: 1.5px solid #386978;
+    /* background-color: red; */
+}
+
+.BSRightAll{
+    width: 30%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 1.5px solid #386978;;
+    padding-left: 10px;
+}
+
+.BSRight{
+    width: 100%;
+    /* background-color: orange; */
+    height: 700px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BSLeft-top{
+    height: 40%;
+    /* background-color: blue; */
+    border-radius: 10px;
+background: #EBEAEA;
+margin: 1%;
+}
+
+.BSLeft-bottom{
+    height: 55%;
+    /* background-color: gold; */
+}
+
+.Targets{
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+padding-left: 3%;
+}
+
+.TargetImgText{
+    display: flex;
+    justify-content: start;
+    padding: 2%;
+}
+
+.TotalMembers{
+    width: 15%;
+    /* background-color: red; */
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.38px;
+}
+
+.slideComp{
+    width: 40%;
+}
+.AllTotalMember{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+
+.Status{
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+
+.AllSliders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.Predictions{
+    color: #000;
+/* text-align: center; */
+font-family: Arial;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.6px;
+/* background-color: red; */
+padding: 2%;
+}
+
+.Estimate{
+    color: #000;
+/* text-align: center; */
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+padding-left: 2%;
+}
+
+.buttonsPred{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+background: #EBEAEA;
+width: 95%;
+margin-left: 2%;
+}
+
+.PredbtnText{
+    color: #000;
+/* text-align: center; */
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.4px;
+}
+
+.predBtn{
+    border-radius: 10px;
+background: #3495B3;
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.3px;
+padding: 1% 4% 1% 4%;
+}
+
+.predDropDiv{
+    border-radius: 3px;
+background: #EBEAEA;
+width: 380px;
+height: 35px;
+margin-left: 10%;
+}
+
+.predDrop{
+    border-radius: 3px;
+    background: #EBEAEA;
+    /* border: none; */
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.38px;
+}
+
+.BSRightBox{
+    border-radius: 10px;
+background: #EBEAEA;
+width: 80%;
+height: 250px;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+.BoxHead{
+    color: #000;
+text-align: center;
+font-family: Arial;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.38px;
+padding-top: 5%;
+padding-bottom: 2%;
+}
+
+.Boxbody{
+    border-radius: 10px;
+background: #3495B3;
+width: 50%;
+/* height: 10px; */
+color: #FFF;
+text-align: center;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.3px;
+padding: 2%;
+margin-left: 23%;
+}

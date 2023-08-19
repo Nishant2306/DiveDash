@@ -1,0 +1,94 @@
+.logo {
+    height: 262px;
+    width: 412px;
+    margin-bottom: 50px;
+    margin-top: 67px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formfill1 {
+    border-radius: 60px;
+    border: 3px solid #d9d9d9;
+    background: #d9d9d9;
+    width: 1000px;
+    height: 80px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #747474;
+    text-align: center;
+    font-size: 34px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.68px;
+    margin-bottom: 68px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ptext{
+    color: rgb(255, 0, 0);
+}
+
+.formtext {
+    color: rgb(168, 0, 0);
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.52px;
+    margin-bottom: 49px;
+}
+
+.formfill2 {
+    border-radius: 60px;
+    border: 3px solid #d9d9d9;
+    background: #d9d9d9;
+    width: 1000px;
+    height: 80px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #747474;
+    text-align: center;
+    font-size: 34px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.68px;
+    margin-bottom: 27px;
+}
+
+.formarea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formbtn {
+    border-radius: 10px;
+    background: #3495b3;
+    width: 300px;
+    height: 49px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.38px;
+}
